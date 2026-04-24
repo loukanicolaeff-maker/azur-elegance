@@ -1,0 +1,767 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Azur Élégance — Conciergerie Privée Côte d'Azur</title>
+    <meta
+      name="description"
+      content="Conciergerie privée haut de gamme sur la Côte d'Azur. Gestion de villas de prestige, services sur-mesure et accompagnement confidentiel pour une clientèle exigeante."
+    />
+    <meta
+      name="keywords"
+      content="conciergerie privée, Côte d'Azur, Alpes-Maritimes, villa de prestige, location saisonnière luxe"
+    />
+
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="Azur Élégance — Conciergerie Privée Côte d'Azur"
+    />
+    <meta
+      property="og:description"
+      content="L'art de la conciergerie privée, réinventé sur la Côte d'Azur."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_FR" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Manrope:wght@200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Azur Élégance",
+        "description": "Conciergerie privée haut de gamme sur la Côte d'Azur",
+        "telephone": "+33-6-74-89-15-45",
+        "email": "conciergerie@azur-elegance.fr",
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "Alpes-Maritimes"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "Provence-Alpes-Côte d'Azur",
+          "addressCountry": "FR"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Intro reveal -->
+    <div class="intro-reveal" aria-hidden="true">
+      <span class="intro-reveal__signature">
+        Azur <span class="ornament">⁕</span> Élégance
+      </span>
+    </div>
+
+    <!-- ============================================================
+       HEADER (commun à toutes les pages)
+       ============================================================ -->
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a href="index.html" class="logo" aria-label="Azur Élégance — Accueil">
+          <span>Azur</span>
+          <span class="logo__ornament" aria-hidden="true">⁕</span>
+          <span>Élégance</span>
+        </a>
+
+        <nav class="nav-desktop" aria-label="Navigation principale">
+          <a href="nos-prestations.html" class="nav-link">Nos Prestations</a>
+          <div class="nav-dropdown">
+            <button
+              class="nav-link nav-dropdown__trigger"
+              aria-expanded="false"
+              aria-haspopup="true"
+            >
+              Nos Biens de Prestige
+              <span class="nav-dropdown__arrow" aria-hidden="true">▾</span>
+            </button>
+            <div class="nav-dropdown__menu">
+              <div class="nav-dropdown__inner">
+                <a href="villa-one-eighty.html" class="nav-dropdown__item"
+                  >Villa One Eighty</a
+                >
+                <a
+                  href="le-domaine-de-la-brugaye.html"
+                  class="nav-dropdown__item"
+                  >Le Domaine de la Brugaye</a
+                >
+              </div>
+            </div>
+          </div>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="site-header__actions">
+          <a
+            href="contact.html"
+            class="btn btn--primary btn--sm btn--cta-desktop"
+          >
+            <span>Réserver</span>
+          </a>
+          <button
+            class="hamburger"
+            aria-label="Ouvrir le menu"
+            aria-expanded="false"
+          >
+            <span class="hamburger__line"></span>
+            <span class="hamburger__line"></span>
+            <span class="hamburger__line"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Menu mobile overlay -->
+    <nav class="mobile-menu" aria-label="Navigation mobile">
+      <a href="index.html" class="mobile-menu__link">Accueil</a>
+      <a href="nos-prestations.html" class="mobile-menu__link"
+        >Nos Prestations</a
+      >
+      <a href="villa-one-eighty.html" class="mobile-menu__link"
+        >Villa One Eighty</a
+      >
+      <a href="le-domaine-de-la-brugaye.html" class="mobile-menu__link"
+        >Le Domaine de la Brugaye</a
+      >
+      <a href="contact.html" class="mobile-menu__link">Contact</a>
+      <a href="contact.html" class="btn btn--primary mobile-menu__cta">
+        <span>Réserver</span>
+      </a>
+    </nav>
+
+    <main id="main">
+      <!-- ============================================================
+         1. HERO
+         ============================================================ -->
+      <section class="hero">
+        <div class="hero__image">
+          <img
+            src="images/hero.jpg"
+            alt="Villa de prestige avec piscine à débordement sur la Côte d'Azur au coucher du soleil"
+          />
+        </div>
+        <div class="hero__overlay"></div>
+        <div class="hero__content">
+          <span class="eyebrow hero__eyebrow">⁕ French Riviera</span>
+          <h1 class="hero__title">Azur Élégance</h1>
+          <p class="hero__subtitle">
+            L'Art de la Conciergerie Privée, réinventé sur la Côte d'Azur
+          </p>
+          <p class="hero__description">
+            Au service des voyageurs les plus exigeants, Azur Élégance imagine
+            une conciergerie sur-mesure, confidentielle et raffinée. Notre
+            mission : simplifier votre quotidien, sublimer vos séjours, et vous
+            offrir un accès privilégié aux expériences les plus exclusives de la
+            French Riviera.
+          </p>
+          <div class="hero__actions">
+            <a href="nos-prestations.html" class="btn btn--primary">
+              <span>Découvrir nos services</span>
+            </a>
+            <a href="contact.html" class="btn btn--outline-light">
+              <span>Demander un devis</span>
+            </a>
+          </div>
+        </div>
+        <div class="hero__scroll-indicator" aria-hidden="true">
+          <span class="hero__scroll-indicator-label">Découvrir</span>
+          <span class="hero__scroll-indicator-line"></span>
+        </div>
+      </section>
+
+      <!-- ============================================================
+         2. MARQUEE
+         ============================================================ -->
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__track">
+          <!-- Contenu dupliqué pour un loop fluide -->
+          <div class="marquee__item">
+            <span class="marquee__word">Discrétion</span
+            ><span class="marquee__separator">⁕</span>
+          </div>
+          <div class="marquee__item">
+            <span class="marquee__word">Exigence</span
+            ><span class="marquee__separator">⁕</span>
+          </div>
+          <div class="marquee__item">
+            <span class="marquee__word">Sérénité</span
+            ><span class="marquee__separator">⁕</span>
+          </div>
+          <div class="marquee__item">
+            <span class="marquee__word">Sur-mesure</span
+            ><span class="marquee__separator">⁕</span>
+          </div>
+          <div class="marquee__item">
+            <span class="marquee__word">Riviera</span
+            ><span class="marquee__separator">⁕</span>
+          </div>
+          <div class="marquee__item">
+            <span class="marquee__word">Confidentialité</span
+            ><span class="marquee__separator">⁕</span>
+          </div>
+          <div class="marquee__item">
+            <span class="marquee__word">Discrétion</span
+            ><span class="marquee__separator">⁕</span>
+          </div>
+          <div class="marquee__item">
+            <span class="marquee__word">Exigence</span
+            ><span class="marquee__separator">⁕</span>
+          </div>
+          <div class="marquee__item">
+            <span class="marquee__word">Sérénité</span
+            ><span class="marquee__separator">⁕</span>
+          </div>
+          <div class="marquee__item">
+            <span class="marquee__word">Sur-mesure</span
+            ><span class="marquee__separator">⁕</span>
+          </div>
+          <div class="marquee__item">
+            <span class="marquee__word">Riviera</span
+            ><span class="marquee__separator">⁕</span>
+          </div>
+          <div class="marquee__item">
+            <span class="marquee__word">Confidentialité</span
+            ><span class="marquee__separator">⁕</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============================================================
+         3. LE CONCEPT (split — image gauche)
+         ============================================================ -->
+      <section class="section-split">
+        <div class="container">
+          <div class="section-split__grid">
+            <div class="section-split__image reveal">
+              <div class="section-split__image-parallax" data-parallax="0.15">
+                <img
+                  src="images/domaine-de-la-brugaye_00009.jpg"
+                  alt="Intérieur raffiné d'une villa de prestige avec mobilier sur-mesure"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="section-split__text reveal reveal--delay-1">
+              <span class="eyebrow">Le Concept</span>
+              <h2 class="section-split__title split-text">
+                Une conciergerie d'exception, pensée pour une clientèle qui
+                exige le meilleur
+              </h2>
+              <hr class="hairline" />
+              <p class="section-split__paragraph">
+                Chaque détail compte. Chaque geste est pensé. Nous orchestrons
+                les services, filtrons les prestataires et anticipons vos
+                besoins — en toute discrétion, avec une exigence absolue.
+              </p>
+              <p class="section-split__paragraph">
+                Au cœur des Alpes-Maritimes, nous avons bâti un réseau
+                confidentiel d'artisans, de chefs, de chauffeurs et de
+                partenaires triés sur le volet.
+              </p>
+              <ul class="section-split__bullets">
+                <li class="section-split__bullet">
+                  <span
+                    class="section-split__bullet-ornament"
+                    aria-hidden="true"
+                    >⁕</span
+                  >
+                  Réactivité absolue, 7j/7
+                </li>
+                <li class="section-split__bullet">
+                  <span
+                    class="section-split__bullet-ornament"
+                    aria-hidden="true"
+                    >⁕</span
+                  >
+                  Partenaires triés sur le volet
+                </li>
+                <li class="section-split__bullet">
+                  <span
+                    class="section-split__bullet-ornament"
+                    aria-hidden="true"
+                    >⁕</span
+                  >
+                  Un accompagnement discret, intuitif et personnalisé
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+         4. NOTRE PHILOSOPHIE (split inversé — image droite)
+         ============================================================ -->
+      <section class="section-split section-split--reversed">
+        <div class="container">
+          <div class="section-split__grid">
+            <div class="section-split__text reveal">
+              <span class="eyebrow">Notre Philosophie</span>
+              <h2 class="section-split__title split-text">
+                L'excellence, traduite en attentions invisibles
+              </h2>
+              <hr class="hairline" />
+              <p class="section-split__paragraph">
+                Le vrai luxe n'est pas spectaculaire. Il se révèle dans ce qui
+                n'a pas besoin d'être demandé : une fleur fraîche à votre
+                arrivée, le rosé favori de votre épouse déjà au frais, la
+                voiture qui attend sans que vous ayez à y penser.
+              </p>
+              <p class="section-split__paragraph">
+                Notre métier est d'anticiper, de coordonner et de s'effacer —
+                pour que vous ne retrouviez que la joie d'être là.
+              </p>
+            </div>
+            <div class="section-split__image reveal reveal--delay-1">
+              <div class="section-split__image-parallax" data-parallax="0.15">
+                <img
+                  src="images/86b204_723c3753c3074ed8817dde9dce8de4bdmv2-1.avif"
+                  alt="Table dressée avec élégance face à la vue sur la Méditerranée"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+         5. 3 CARTES PREMIUM
+         ============================================================ -->
+      <section class="section section--stone">
+        <div class="container">
+          <div class="section__header">
+            <span class="eyebrow">Nos Services</span>
+            <h2 class="section__title split-text">
+              Prestations premium & services exclusifs
+            </h2>
+            <hr class="hairline hairline--centered" />
+            <p class="section__subtitle">
+              Trois piliers pour une tranquillité absolue — chaque mission est
+              menée avec la rigueur d'une maison de haute tradition.
+            </p>
+          </div>
+
+          <div class="service-cards">
+            <article class="service-card reveal">
+              <div class="service-card__icon" aria-hidden="true">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="8" cy="12" r="4" />
+                  <path d="M12 12h10M18 12v4M22 12v3" />
+                </svg>
+              </div>
+              <h3 class="service-card__title">Gestion des locations</h3>
+              <hr class="service-card__divider" />
+              <p class="service-card__description">
+                Nous prenons en charge la diffusion et la gestion de vos
+                annonces (Airbnb, Booking, contacts privés), la sélection des
+                voyageurs, la coordination des réservations et la remise des
+                clés.
+              </p>
+            </article>
+
+            <article class="service-card reveal reveal--delay-1">
+              <div class="service-card__icon" aria-hidden="true">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M4 20C4 10 10 4 20 4c0 10-6 16-16 16zM4 20l10-10" />
+                </svg>
+              </div>
+              <h3 class="service-card__title">Entretien de votre propriété</h3>
+              <hr class="service-card__divider" />
+              <p class="service-card__description">
+                Ménage professionnel, entretien de piscine, entretien du jardin,
+                suivi technique — réalisés exclusivement par des prestataires
+                triés sur le volet.
+              </p>
+            </article>
+
+            <article class="service-card reveal reveal--delay-2">
+              <div class="service-card__icon" aria-hidden="true">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M3 8a2 2 0 0 1 2-2h2l2-3h6l2 3h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+                  />
+                  <circle cx="12" cy="13" r="4" />
+                </svg>
+              </div>
+              <h3 class="service-card__title">
+                Service photo & vidéo professionnel
+              </h3>
+              <hr class="service-card__divider" />
+              <p class="service-card__description">
+                Mise en valeur de votre villa pour des publications raffinées et
+                attractives, garantissant une visibilité optimale sur les
+                plateformes de réservation.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+         6. GALERIE MOSAÏQUE
+         ============================================================ -->
+      <section class="section">
+        <div class="container">
+          <div class="section__header" style="max-width: 48rem">
+            <h2 class="section__title split-text">
+              Instantanés d'Azur Élégance
+            </h2>
+            <hr class="hairline hairline--centered" />
+            <p class="section__subtitle">
+              Des moments d'exception créés pour nos clients, entre élégance
+              discrète et art de vivre Riviera.
+            </p>
+          </div>
+
+          <div class="gallery gallery--asymmetric" data-gallery>
+            <button
+              class="gallery__item reveal"
+              type="button"
+              aria-label="Agrandir l'image"
+            >
+              <img
+                src="images/tourrettes_0010.jpg"
+                alt="Piscine à débordement au coucher du soleil sur la Riviera"
+                loading="lazy"
+              />
+              <span class="gallery__caption"
+                >Villa One Eighty — Couchers de soleil privés</span
+              >
+            </button>
+            <button
+              class="gallery__item reveal reveal--delay-1"
+              type="button"
+              aria-label="Agrandir l'image"
+            >
+              <img
+                src="images/Fresh_Bread_Basket.png"
+                alt="Petit-déjeuner raffiné en terrasse face à la mer"
+                loading="lazy"
+              />
+              <span class="gallery__caption">Panier d'accueil sur-mesure</span>
+            </button>
+            <button
+              class="gallery__item reveal reveal--delay-2"
+              type="button"
+              aria-label="Agrandir l'image"
+            >
+              <img
+                src="images/domaine-de-la-brugaye_00022.jpg"
+                alt="Jardin méditerranéen avec oliviers centenaires"
+                loading="lazy"
+              />
+              <span class="gallery__caption"
+                >Domaine de la Brugaye — Jardin préservé</span
+              >
+            </button>
+            <button
+              class="gallery__item reveal reveal--delay-3"
+              type="button"
+              aria-label="Agrandir l'image"
+            >
+              <img
+                src="images/tourrettes_0017.jpg"
+                alt="Salon élégant baigné de lumière naturelle méditerranéenne"
+                loading="lazy"
+              />
+              <span class="gallery__caption">Intérieurs signature</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+         7. EXPLORER NOS BIENS
+         ============================================================ -->
+      <section class="section section--stone">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title split-text">Explorer nos biens</h2>
+            <hr class="hairline hairline--centered" />
+          </div>
+
+          <div class="property-grid">
+            <a href="villa-one-eighty.html" class="property-card reveal">
+              <img
+                src="images/V2609CO-proprio-26-scaled.webp"
+                alt="Façade contemporaine de la Villa One Eighty avec piscine à débordement"
+                loading="lazy"
+              />
+              <div class="property-card__overlay"></div>
+              <div class="property-card__content">
+                <span class="property-card__location">Tourrettes-sur-Loup</span>
+                <h3 class="property-card__name">Villa One Eighty</h3>
+                <p class="property-card__tagline">
+                  Un refuge contemporain sur les hauteurs, pensé pour ralentir,
+                  respirer, et profiter de la Côte d'Azur dans sa version la
+                  plus sereine.
+                </p>
+                <span class="property-card__link">
+                  <span>Découvrir</span>
+                  <span class="property-card__link-line"></span>
+                </span>
+              </div>
+            </a>
+
+            <a
+              href="le-domaine-de-la-brugaye.html"
+              class="property-card reveal reveal--delay-1"
+            >
+              <img
+                src="images/Le_domaine_de_la_brugaye.jpg"
+                alt="Bastide provençale du Domaine de la Brugaye avec jardin méditerranéen"
+                loading="lazy"
+              />
+              <div class="property-card__overlay"></div>
+              <div class="property-card__content">
+                <span class="property-card__location">Côte d'Azur</span>
+                <h3 class="property-card__name">Le Domaine de la Brugaye</h3>
+                <p class="property-card__tagline">
+                  Une somptueuse bastide provençale de 300 m² nichée entre mer
+                  Méditerranée et massif de l'Estérel.
+                </p>
+                <span class="property-card__link">
+                  <span>Découvrir</span>
+                  <span class="property-card__link-line"></span>
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============================================================
+       FOOTER (commun à toutes les pages)
+       ============================================================ -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="site-footer__grid">
+          <div>
+            <a href="index.html" class="logo">
+              <span>Azur</span>
+              <span class="logo__ornament" aria-hidden="true">⁕</span>
+              <span>Élégance</span>
+            </a>
+            <p class="site-footer__tagline">
+              L'art de la conciergerie privée, réinventé sur la Côte d'Azur.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="site-footer__column-title">Navigation</h4>
+            <ul class="site-footer__list">
+              <li><a href="nos-prestations.html">Nos Prestations</a></li>
+              <li><a href="villa-one-eighty.html">Villa One Eighty</a></li>
+              <li>
+                <a href="le-domaine-de-la-brugaye.html"
+                  >Le Domaine de la Brugaye</a
+                >
+              </li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="site-footer__column-title">Nous contacter</h4>
+            <ul class="site-footer__list">
+              <li>
+                <a href="mailto:conciergerie@azur-elegance.fr"
+                  >conciergerie@azur-elegance.fr</a
+                >
+              </li>
+              <li><a href="tel:+33674891545">06 74 89 15 45</a></li>
+              <li class="muted">Alpes-Maritimes<br />Côte d'Azur</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="site-footer__column-title">Suivez-nous</h4>
+            <div class="site-footer__social">
+              <a href="#" aria-label="Facebook">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                >
+                  <path
+                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+              <a href="#" aria-label="Instagram">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                >
+                  <rect x="3" y="3" width="18" height="18" rx="4" />
+                  <circle cx="12" cy="12" r="4" />
+                  <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" />
+                </svg>
+              </a>
+              <a href="#" aria-label="LinkedIn">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                >
+                  <rect x="2" y="9" width="4" height="12" />
+                  <circle cx="4" cy="4" r="2" />
+                  <path
+                    d="M16 9a5 5 0 0 0-5 5v7h-4V9h4v2a5 5 0 0 1 5-5a5 5 0 0 1 5 5v7h-4v-7"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <hr class="site-footer__separator" />
+
+        <div class="site-footer__bottom">
+          <ul class="site-footer__legal">
+            <li>
+              <a href="politique-de-confidentialite.html"
+                >Politique de confidentialité</a
+              >
+            </li>
+            <li>
+              <a href="declaration-accessibilite.html"
+                >Déclaration d'accessibilité</a
+              >
+            </li>
+            <li>
+              <a href="conditions-generales.html">Conditions générales</a>
+            </li>
+            <li>
+              <a href="politique-de-remboursement.html"
+                >Politique de remboursement</a
+              >
+            </li>
+          </ul>
+          <p>© 2026 Azur Élégance — Tous droits réservés</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Lightbox (utilisé par toutes les galeries) -->
+    <div
+      class="lightbox"
+      id="lightbox"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Galerie photo"
+      aria-hidden="true"
+    >
+      <div class="lightbox__backdrop"></div>
+      <button
+        class="lightbox__btn lightbox__close"
+        aria-label="Fermer la galerie"
+      >
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1"
+        >
+          <path d="M6 6l12 12M18 6L6 18" stroke-linecap="round" />
+        </svg>
+      </button>
+      <button
+        class="lightbox__btn lightbox__prev"
+        aria-label="Image précédente"
+      >
+        <svg
+          width="28"
+          height="28"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1"
+        >
+          <path
+            d="M15 6l-6 6 6 6"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </button>
+      <button class="lightbox__btn lightbox__next" aria-label="Image suivante">
+        <svg
+          width="28"
+          height="28"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1"
+        >
+          <path
+            d="M9 6l6 6-6 6"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </button>
+      <div class="lightbox__content">
+        <img class="lightbox__image" src="" alt="" />
+      </div>
+      <div class="lightbox__counter"></div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
