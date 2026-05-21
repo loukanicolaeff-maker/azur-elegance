@@ -1,0 +1,967 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact · Azur Élégance</title>
+    <meta
+      name="description"
+      content="Contactez Azur Élégance pour toute demande de conciergerie privée sur la Côte d'Azur. Un accompagnement confidentiel, discret et sur-mesure."
+    />
+    <meta
+      name="keywords"
+      content="conciergerie privée, Côte d'Azur, Alpes-Maritimes, villa de prestige, location saisonnière luxe"
+    />
+
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="Azur Élégance — Conciergerie Privée Côte d'Azur"
+    />
+    <meta
+      property="og:description"
+      content="L'art de la conciergerie privée, réinventé sur la Côte d'Azur."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_FR" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Manrope:wght@200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Azur Élégance",
+        "description": "Conciergerie privée haut de gamme sur la Côte d'Azur",
+        "telephone": "+33-6-74-89-15-45",
+        "email": "conciergerie@azur-elegance.fr",
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "Alpes-Maritimes"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "Provence-Alpes-Côte d'Azur",
+          "addressCountry": "FR"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Intro reveal -->
+    <div class="intro-reveal" aria-hidden="true">
+      <span class="intro-reveal__signature">
+        Azur <span class="ornament">⁕</span> Élégance
+      </span>
+    </div>
+
+    <!-- ============================================================
+       HEADER (commun à toutes les pages)
+       ============================================================ -->
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a href="index.html" class="logo" aria-label="Azur Élégance — Accueil">
+          <span>Azur</span>
+          <span class="logo__ornament" aria-hidden="true">⁕</span>
+          <span>Élégance</span>
+        </a>
+
+        <nav class="nav-desktop" aria-label="Navigation principale">
+          <a href="nos-prestations.html" class="nav-link">Nos Prestations</a>
+          <div class="nav-dropdown">
+            <button
+              class="nav-link nav-dropdown__trigger"
+              aria-expanded="false"
+              aria-haspopup="true"
+            >
+              Nos Biens de Prestige
+              <span class="nav-dropdown__arrow" aria-hidden="true">▾</span>
+            </button>
+            <div class="nav-dropdown__menu">
+              <div class="nav-dropdown__inner">
+                <a href="villa-one-eighty.html" class="nav-dropdown__item"
+                  >Villa One Eighty</a
+                >
+                <a
+                  href="le-domaine-de-la-brugaye.html"
+                  class="nav-dropdown__item"
+                  >Le Domaine de la Brugaye</a
+                >
+              </div>
+            </div>
+          </div>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="site-header__actions">
+          <a
+            href="contact.html"
+            class="btn btn--primary btn--sm btn--cta-desktop"
+          >
+            <span>Réserver</span>
+          </a>
+          <button
+            class="hamburger"
+            aria-label="Ouvrir le menu"
+            aria-expanded="false"
+          >
+            <span class="hamburger__line"></span>
+            <span class="hamburger__line"></span>
+            <span class="hamburger__line"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Menu mobile overlay -->
+    <nav class="mobile-menu" aria-label="Navigation mobile">
+      <a href="index.html" class="mobile-menu__link">Accueil</a>
+      <a href="nos-prestations.html" class="mobile-menu__link"
+        >Nos Prestations</a
+      >
+      <a href="villa-one-eighty.html" class="mobile-menu__link"
+        >Villa One Eighty</a
+      >
+      <a href="le-domaine-de-la-brugaye.html" class="mobile-menu__link"
+        >Le Domaine de la Brugaye</a
+      >
+      <a href="contact.html" class="mobile-menu__link">Contact</a>
+      <a href="contact.html" class="btn btn--primary mobile-menu__cta">
+        <span>Réserver</span>
+      </a>
+    </nav>
+
+    <main id="main">
+      <!-- Hero compact (fond ivoire) -->
+      <section class="hero hero--contact">
+        <div class="container">
+          <div style="max-width: 56rem; margin: 0 auto; text-align: center">
+            <span class="eyebrow">⁕ Entrons en contact</span>
+            <h1 class="hero__title">Contact</h1>
+            <p class="hero__subtitle">Vous avez une question ou un projet ?</p>
+            <hr class="hairline hairline--centered" />
+            <p class="hero__description" style="margin-top: 2rem">
+              Chez Azur Élégance, chaque demande est traitée avec la plus grande
+              attention, dans un strict respect de la confidentialité et de
+              l'exigence attendue par une clientèle haut de gamme.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Split coordonnées + formulaire -->
+      <section class="section" style="padding-top: 0">
+        <div class="container">
+          <div class="contact-split">
+            <!-- Gauche — Coordonnées -->
+            <div class="contact-info reveal">
+              <span class="eyebrow">Coordonnées</span>
+              <h2 class="contact-info__title">
+                Parlons-en,<br />en toute discrétion.
+              </h2>
+              <hr class="hairline" />
+
+              <dl class="contact-info__list">
+                <div>
+                  <dt class="contact-info__label">E-mail</dt>
+                  <dd>
+                    <a
+                      href="mailto:conciergerie@azur-elegance.fr"
+                      class="contact-info__value"
+                    >
+                      conciergerie@azur-elegance.fr
+                    </a>
+                  </dd>
+                </div>
+                <div>
+                  <dt class="contact-info__label">Téléphone</dt>
+                  <dd>
+                    <a href="tel:+33674891545" class="contact-info__value"
+                      >06 74 89 15 45</a
+                    >
+                  </dd>
+                </div>
+                <div>
+                  <dt class="contact-info__label">Zone d'intervention</dt>
+                  <dd class="contact-info__value" style="margin-top: 0.5rem">
+                    Alpes-Maritimes & Côte d'Azur
+                  </dd>
+                </div>
+              </dl>
+
+              <div style="margin-top: 2.5rem">
+                <a href="#formulaire" class="btn btn--primary"
+                  ><span>Prendre une réservation</span></a
+                >
+              </div>
+
+              <div class="contact-info__social">
+                <span class="contact-info__social-label">Nous suivre</span>
+                <div class="contact-info__social-line"></div>
+                <a href="#" aria-label="Facebook">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.2"
+                  >
+                    <path
+                      d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+                <a href="#" aria-label="Instagram">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.2"
+                  >
+                    <rect x="3" y="3" width="18" height="18" rx="4" />
+                    <circle cx="12" cy="12" r="4" />
+                    <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" />
+                  </svg>
+                </a>
+                <a href="#" aria-label="LinkedIn">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.2"
+                  >
+                    <rect x="2" y="9" width="4" height="12" />
+                    <circle cx="4" cy="4" r="2" />
+                    <path
+                      d="M16 9a5 5 0 0 0-5 5v7h-4V9h4v2a5 5 0 0 1 5-5a5 5 0 0 1 5 5v7h-4v-7"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <!-- Droite — Formulaire -->
+            <div
+              class="contact-form-wrapper reveal reveal--delay-1"
+              id="formulaire"
+            >
+              <span class="eyebrow">Votre message</span>
+              <h2 class="contact-form-wrapper__title">Écrivez-nous</h2>
+              <hr class="hairline" />
+              <p class="contact-form-wrapper__description">
+                Un conseiller vous recontactera sous 48 heures pour préparer un
+                accompagnement sur-mesure.
+              </p>
+
+              <form id="contact-form" class="contact-form" novalidate>
+                <div class="field">
+                  <label for="name" class="field__label">Nom</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="field__input"
+                    autocomplete="name"
+                    required
+                  />
+                  <span class="field__underline"></span>
+                  <p class="field__error" role="alert"></p>
+                </div>
+
+                <div class="field">
+                  <label for="email" class="field__label">Adresse e-mail</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="field__input"
+                    autocomplete="email"
+                    required
+                  />
+                  <span class="field__underline"></span>
+                  <p class="field__error" role="alert"></p>
+                </div>
+
+                <div class="field">
+                  <label for="message" class="field__label">Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="field__textarea"
+                    rows="5"
+                    required
+                  ></textarea>
+                  <span class="field__underline"></span>
+                  <p class="field__error" role="alert"></p>
+                </div>
+
+                <div style="padding-top: 1rem">
+                  <button type="submit" class="btn btn--primary btn--lg">
+                    <span>Envoyer</span>
+                  </button>
+                </div>
+              </form>
+
+              <!-- État succès -->
+              <div
+                id="contact-success"
+                class="form-success"
+                style="display: none"
+              >
+                <svg
+                  width="64"
+                  height="64"
+                  viewBox="0 0 64 64"
+                  class="form-success__icon"
+                  aria-hidden="true"
+                >
+                  <circle
+                    cx="32"
+                    cy="32"
+                    r="30"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1"
+                  />
+                  <path
+                    d="M20 33l9 9 15-19"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <h3 class="form-success__title">Merci pour votre message</h3>
+                <p class="form-success__text">
+                  Nous vous recontacterons dans les meilleurs délais, avec
+                  l'attention que mérite votre demande.
+                </p>
+                <button
+                  type="button"
+                  class="btn btn--outline"
+                  data-reset-form
+                  style="margin-top: 2rem"
+                >
+                  <span>Envoyer un autre message</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bannière paysage Riviera -->
+      <section class="contact-landscape">
+        <div class="contact-landscape__image">
+          <img
+            src="images/contact.jpg"
+            alt="Panorama de la Côte d'Azur, entre mer et collines méditerranéennes"
+          />
+        </div>
+        <div class="contact-landscape__overlay"></div>
+        <div class="container contact-landscape__content">
+          <div class="contact-landscape__inner reveal">
+            <span class="eyebrow" style="color: var(--champagne-light)"
+              >Notre territoire</span
+            >
+            <h2 class="contact-landscape__title">
+              Une conciergerie privée haut de gamme sur la Côte d'Azur
+            </h2>
+            <p class="contact-landscape__text">
+              Implantée sur la Côte d'Azur, Azur Élégance déploie ses services
+              de conciergerie privée dans les Alpes-Maritimes et les
+              destinations les plus prisées du littoral.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="section section--stone">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title split-text">FAQ</h2>
+            <hr class="hairline hairline--centered" />
+            <p class="section__subtitle">
+              Quelques informations pour faciliter votre expérience.
+            </p>
+          </div>
+
+          <div class="faq-list">
+            <div class="faq-category">
+              <h3 class="faq-category__title">
+                <span aria-hidden="true"></span> Services et Prestations
+              </h3>
+              <div class="faq-item">
+                <button
+                  type="button"
+                  class="faq-item__trigger"
+                  aria-expanded="false"
+                >
+                  <span class="faq-item__question"
+                    >Quels types de services propose Azur Élégance ?</span
+                  >
+                  <span class="faq-item__icon" aria-hidden="true">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1"
+                    >
+                      <path d="M8 2v12M2 8h12" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                </button>
+                <div class="faq-item__panel">
+                  <p class="faq-item__answer">
+                    Azur Élégance propose des services de conciergerie privée et
+                    de gestion de biens de prestige : intendance de propriétés,
+                    gestion locative saisonnière, accueil voyageurs, ménage haut
+                    de gamme, maintenance, organisation de séjours, services
+                    personnalisés pour propriétaires et locataires.
+                  </p>
+                </div>
+              </div>
+              <div class="faq-item">
+                <button
+                  type="button"
+                  class="faq-item__trigger"
+                  aria-expanded="false"
+                >
+                  <span class="faq-item__question"
+                    >Proposez-vous des prestations sur-mesure ?</span
+                  >
+                  <span class="faq-item__icon" aria-hidden="true">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1"
+                    >
+                      <path d="M8 2v12M2 8h12" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                </button>
+                <div class="faq-item__panel">
+                  <p class="faq-item__answer">
+                    Oui. Chaque client bénéficie d'un accompagnement entièrement
+                    personnalisé. Nos prestations sont adaptées à vos besoins, à
+                    votre bien et à vos exigences.
+                  </p>
+                </div>
+              </div>
+              <div class="faq-item">
+                <button
+                  type="button"
+                  class="faq-item__trigger"
+                  aria-expanded="false"
+                >
+                  <span class="faq-item__question"
+                    >Travaillez-vous uniquement avec des biens de prestige
+                    ?</span
+                  >
+                  <span class="faq-item__icon" aria-hidden="true">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1"
+                    >
+                      <path d="M8 2v12M2 8h12" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                </button>
+                <div class="faq-item__panel">
+                  <p class="faq-item__answer">
+                    Notre spécialité est la gestion de biens haut de gamme,
+                    villas et appartements de standing, mais nous étudions
+                    chaque projet avec attention.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-category">
+              <h3 class="faq-category__title">
+                <span aria-hidden="true"></span> Propriétaires et Investisseurs
+              </h3>
+              <div class="faq-item">
+                <button
+                  type="button"
+                  class="faq-item__trigger"
+                  aria-expanded="false"
+                >
+                  <span class="faq-item__question"
+                    >Puis-je confier la gestion complète de mon bien à Azur
+                    Élégance ?</span
+                  >
+                  <span class="faq-item__icon" aria-hidden="true">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1"
+                    >
+                      <path d="M8 2v12M2 8h12" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                </button>
+                <div class="faq-item__panel">
+                  <p class="faq-item__answer">
+                    Absolument. Nous pouvons prendre en charge l'intégralité de
+                    la gestion : intendance, coordination des prestataires,
+                    gestion locative saisonnière, suivi des voyageurs et
+                    reporting régulier.
+                  </p>
+                </div>
+              </div>
+              <div class="faq-item">
+                <button
+                  type="button"
+                  class="faq-item__trigger"
+                  aria-expanded="false"
+                >
+                  <span class="faq-item__question"
+                    >Intervenez-vous en mon absence ?</span
+                  >
+                  <span class="faq-item__icon" aria-hidden="true">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1"
+                    >
+                      <path d="M8 2v12M2 8h12" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                </button>
+                <div class="faq-item__panel">
+                  <p class="faq-item__answer">
+                    Oui. Nous assurons une présence de confiance sur place :
+                    visites régulières, contrôles, gestion des imprévus et
+                    communication proactive avec le propriétaire.
+                  </p>
+                </div>
+              </div>
+              <div class="faq-item">
+                <button
+                  type="button"
+                  class="faq-item__trigger"
+                  aria-expanded="false"
+                >
+                  <span class="faq-item__question"
+                    >Comment garantissez-vous la sécurité de mon bien ?</span
+                  >
+                  <span class="faq-item__icon" aria-hidden="true">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1"
+                    >
+                      <path d="M8 2v12M2 8h12" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                </button>
+                <div class="faq-item__panel">
+                  <p class="faq-item__answer">
+                    Nous travaillons avec des partenaires de confiance et
+                    mettons en place des protocoles stricts : accès contrôlés,
+                    suivi des interventions, traçabilité et reporting.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-category">
+              <h3 class="faq-category__title">
+                <span aria-hidden="true"></span> Voyageurs et Locataires
+              </h3>
+              <div class="faq-item">
+                <button
+                  type="button"
+                  class="faq-item__trigger"
+                  aria-expanded="false"
+                >
+                  <span class="faq-item__question"
+                    >Pouvez-vous organiser un séjour clé en main ?</span
+                  >
+                  <span class="faq-item__icon" aria-hidden="true">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1"
+                    >
+                      <path d="M8 2v12M2 8h12" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                </button>
+                <div class="faq-item__panel">
+                  <p class="faq-item__answer">
+                    Oui. Nous organisons des expériences sur-mesure :
+                    transferts, chefs privés, réservations, activités
+                    exclusives, services à domicile et recommandations locales
+                    premium.
+                  </p>
+                </div>
+              </div>
+              <div class="faq-item">
+                <button
+                  type="button"
+                  class="faq-item__trigger"
+                  aria-expanded="false"
+                >
+                  <span class="faq-item__question"
+                    >Êtes-vous disponibles pendant le séjour ?</span
+                  >
+                  <span class="faq-item__icon" aria-hidden="true">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1"
+                    >
+                      <path d="M8 2v12M2 8h12" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                </button>
+                <div class="faq-item__panel">
+                  <p class="faq-item__answer">
+                    Oui. Notre conciergerie est joignable tout au long du séjour
+                    pour répondre aux demandes et gérer les imprévus.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-category">
+              <h3 class="faq-category__title">
+                <span aria-hidden="true"></span> Tarifs et Fonctionnement
+              </h3>
+              <div class="faq-item">
+                <button
+                  type="button"
+                  class="faq-item__trigger"
+                  aria-expanded="false"
+                >
+                  <span class="faq-item__question"
+                    >Comment sont définis vos tarifs ?</span
+                  >
+                  <span class="faq-item__icon" aria-hidden="true">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1"
+                    >
+                      <path d="M8 2v12M2 8h12" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                </button>
+                <div class="faq-item__panel">
+                  <p class="faq-item__answer">
+                    Les tarifs dépendent du type de bien, des prestations
+                    souhaitées et du niveau d'accompagnement. Un devis
+                    personnalisé est systématiquement proposé.
+                  </p>
+                </div>
+              </div>
+              <div class="faq-item">
+                <button
+                  type="button"
+                  class="faq-item__trigger"
+                  aria-expanded="false"
+                >
+                  <span class="faq-item__question"
+                    >Y a-t-il un engagement de durée ?</span
+                  >
+                  <span class="faq-item__icon" aria-hidden="true">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1"
+                    >
+                      <path d="M8 2v12M2 8h12" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                </button>
+                <div class="faq-item__panel">
+                  <p class="faq-item__answer">
+                    Selon la formule choisie. Certaines prestations sont
+                    ponctuelles, d'autres s'inscrivent dans un accompagnement
+                    annuel. Tout est défini contractuellement en toute
+                    transparence.
+                  </p>
+                </div>
+              </div>
+              <div class="faq-item">
+                <button
+                  type="button"
+                  class="faq-item__trigger"
+                  aria-expanded="false"
+                >
+                  <span class="faq-item__question"
+                    >Les informations que je transmets sont-elles protégées
+                    ?</span
+                  >
+                  <span class="faq-item__icon" aria-hidden="true">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1"
+                    >
+                      <path d="M8 2v12M2 8h12" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                </button>
+                <div class="faq-item__panel">
+                  <p class="faq-item__answer">
+                    Oui. La confidentialité est une valeur fondamentale chez
+                    Azur Élégance. Toutes les données et informations clients
+                    sont traitées avec la plus stricte discrétion.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============================================================
+       FOOTER (commun à toutes les pages)
+       ============================================================ -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="site-footer__grid">
+          <div>
+            <a href="index.html" class="logo">
+              <span>Azur</span>
+              <span class="logo__ornament" aria-hidden="true">⁕</span>
+              <span>Élégance</span>
+            </a>
+            <p class="site-footer__tagline">
+              L'art de la conciergerie privée, réinventé sur la Côte d'Azur.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="site-footer__column-title">Navigation</h4>
+            <ul class="site-footer__list">
+              <li><a href="nos-prestations.html">Nos Prestations</a></li>
+              <li><a href="villa-one-eighty.html">Villa One Eighty</a></li>
+              <li>
+                <a href="le-domaine-de-la-brugaye.html"
+                  >Le Domaine de la Brugaye</a
+                >
+              </li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="site-footer__column-title">Nous contacter</h4>
+            <ul class="site-footer__list">
+              <li>
+                <a href="mailto:conciergerie@azur-elegance.fr"
+                  >conciergerie@azur-elegance.fr</a
+                >
+              </li>
+              <li><a href="tel:+33674891545">06 74 89 15 45</a></li>
+              <li class="muted">Alpes-Maritimes<br />Côte d'Azur</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="site-footer__column-title">Suivez-nous</h4>
+            <div class="site-footer__social">
+              <a href="#" aria-label="Facebook">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                >
+                  <path
+                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+              <a href="#" aria-label="Instagram">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                >
+                  <rect x="3" y="3" width="18" height="18" rx="4" />
+                  <circle cx="12" cy="12" r="4" />
+                  <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" />
+                </svg>
+              </a>
+              <a href="#" aria-label="LinkedIn">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                >
+                  <rect x="2" y="9" width="4" height="12" />
+                  <circle cx="4" cy="4" r="2" />
+                  <path
+                    d="M16 9a5 5 0 0 0-5 5v7h-4V9h4v2a5 5 0 0 1 5-5a5 5 0 0 1 5 5v7h-4v-7"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <hr class="site-footer__separator" />
+
+        <div class="site-footer__bottom">
+          <ul class="site-footer__legal">
+            <li>
+              <a href="politique-de-confidentialite.html"
+                >Politique de confidentialité</a
+              >
+            </li>
+            <li>
+              <a href="declaration-accessibilite.html"
+                >Déclaration d'accessibilité</a
+              >
+            </li>
+            <li>
+              <a href="conditions-generales.html">Conditions générales</a>
+            </li>
+            <li>
+              <a href="politique-de-remboursement.html"
+                >Politique de remboursement</a
+              >
+            </li>
+          </ul>
+          <p>© 2026 Azur Élégance — Tous droits réservés</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Lightbox (utilisé par toutes les galeries) -->
+    <div
+      class="lightbox"
+      id="lightbox"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Galerie photo"
+      aria-hidden="true"
+    >
+      <div class="lightbox__backdrop"></div>
+      <button
+        class="lightbox__btn lightbox__close"
+        aria-label="Fermer la galerie"
+      >
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1"
+        >
+          <path d="M6 6l12 12M18 6L6 18" stroke-linecap="round" />
+        </svg>
+      </button>
+      <button
+        class="lightbox__btn lightbox__prev"
+        aria-label="Image précédente"
+      >
+        <svg
+          width="28"
+          height="28"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1"
+        >
+          <path
+            d="M15 6l-6 6 6 6"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </button>
+      <button class="lightbox__btn lightbox__next" aria-label="Image suivante">
+        <svg
+          width="28"
+          height="28"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1"
+        >
+          <path
+            d="M9 6l6 6-6 6"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </button>
+      <div class="lightbox__content">
+        <img class="lightbox__image" src="" alt="" />
+      </div>
+      <div class="lightbox__counter"></div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
